@@ -15,5 +15,17 @@ namespace ChuongTrinhXamXamXiDu
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bCong_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(a.Text);
+            double y = double.Parse(b.Text);
+            double kq = x + y;
+        }
     }
 }
