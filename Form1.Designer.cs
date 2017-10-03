@@ -55,8 +55,9 @@
             this.bCong.Name = "bCong";
             this.bCong.Size = new System.Drawing.Size(75, 23);
             this.bCong.TabIndex = 2;
-            this.bCong.Text = "button1";
+            this.bCong.Text = "Cộng";
             this.bCong.UseVisualStyleBackColor = true;
+            this.bCong.Click += new System.EventHandler(this.bCong_Click);
             // 
             // bTru
             // 
@@ -64,7 +65,7 @@
             this.bTru.Name = "bTru";
             this.bTru.Size = new System.Drawing.Size(75, 23);
             this.bTru.TabIndex = 3;
-            this.bTru.Text = "button2";
+            this.bTru.Text = "Trừ";
             this.bTru.UseVisualStyleBackColor = true;
             // 
             // Form1
